@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Third-party paper (copyrighted): see https://arxiv.org/abs/2607.22242
+*.pdf
+
+# Model weights and archives never belong in the repo
+models/
+*.safetensors
+*.tgz
+
+# Scratch outputs of ad-hoc runs (the real results folder, results_real_llm/, is kept)
+tooldag_results/
+results_test*/
